@@ -1,4 +1,4 @@
--- Initial schema for Critic (SQLite). Prefer `npm run db:push` from Drizzle; this file is a reference.
+-- Initial schema for Movidl (SQLite). Prefer `npm run db:push` from Drizzle; this file is a reference.
 
 CREATE TABLE `movies` (
   `imdb_id` text PRIMARY KEY NOT NULL,

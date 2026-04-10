@@ -7,7 +7,7 @@ import * as schema from "./schema";
 let client: Database.Database | null = null;
 
 function resolveSqlitePath(): string {
-  const url = process.env.DATABASE_URL ?? "file:./data/critic.db";
+  const url = process.env.DATABASE_URL ?? "file:./data/movidl.db";
   const raw = url.startsWith("file:") ? url.slice("file:".length) : url;
   const normalized = raw.replace(/^\/+/, "");
   return path.isAbsolute(normalized)

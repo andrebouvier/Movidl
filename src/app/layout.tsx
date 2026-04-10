@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Critic — Daily movie ratings",
+  title: "Movidl — Daily movie ratings",
   description: "Ten questions: which movie has the higher IMDb rating?",
 };
 

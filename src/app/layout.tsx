@@ -1,0 +1,19 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Critic — Daily movie ratings",
+  description: "Ten questions: which movie has the higher IMDb rating?",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className="min-h-screen antialiased">{children}</body>
+    </html>
+  );
+}

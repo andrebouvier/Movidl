@@ -17,3 +17,11 @@ body {
   color: var(--text);
   font-family: system-ui, -apple-system, Segoe UI, sans-serif;
 }
+
+/* Pointer on interactive buttons; not-allowed when disabled (overrides default arrow). */
+button:not(:disabled) {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
